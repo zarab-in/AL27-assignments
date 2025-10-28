@@ -1,0 +1,13 @@
+DECLARE h, b, A: REAL
+
+OUTPUT "Enter the height of the triangle: "
+INPUT h
+
+OUTPUT "Enter the breadth of the triangle: "
+INPUT b
+
+A <- (1/2) * h * b
+// OR
+A <- 0.5 * h * b
+
+OUTPUT "The area of the triangle is: " , A

@@ -1,0 +1,9 @@
+DECLARE r, A, pi: REAL
+
+OUTPUT "Enter the radius:"
+INPUT r
+
+SET pi = 3.1416
+A <- pi * r * r
+
+OUTPUT "The area of the circle is: " , A
